@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using ServerWebMvc.Models.ViewModels;
 
 namespace ServerWebMvc.Controllers
 {
@@ -19,6 +20,7 @@ namespace ServerWebMvc.Controllers
         {
             ViewData["Message"] = "Página de uma Fazenda Urbana";            
             ViewData["Professor"] = "Pedro Carlos da Silva Euphrásio";
+
             return View();
         }
 
