@@ -17,8 +17,8 @@ namespace ServerWebMvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
-
+            ViewData["Message"] = "Página de uma Fazenda Urbana";            
+            ViewData["Professor"] = "Pedro Carlos da Silva Euphrásio";
             return View();
         }
 
